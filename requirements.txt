@@ -1,0 +1,8 @@
+datasets==2.18.0
+joblib
+numpy
+pandas
+scikit-learn
+torch==2.2.2+cu118
+tqdm
+transformers==4.38.2
