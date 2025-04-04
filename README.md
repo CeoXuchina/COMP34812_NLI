@@ -11,19 +11,33 @@ This README describes how to run the code for our **Natural Language Understandi
 
 ```
 .
-├── train_model_a.ipynb             # [Task A] Traditional ML model training and evaluation
-├── demo_code_a.ipynb               # [Task A] Inference on test set using best traditional model
-├── Group_16_A.csv                  # [Task A] Predictions from traditional model
-
-├── train_model.ipynb               # [Task C] RoBERTa model training on NLI dataset
-├── predict_and_eval.ipynb         # [Task C] Dev/test inference and prediction saving
-├── Group_16_C.csv                 # [Task C] Predictions from fine-tuned RoBERTa model
-├── predictions.csv.predict.zip    # [Task C] Dev set predictions for Codabench
-
-├── Group_16_A_model_card.md        # Model card for Task A
-├── Group_16_C_model_card.md        # Model card for Task C
-├── poster.pdf                      # Flash poster for presentation
-└── README.md                       # This file
+├── Demo Notebook/
+│   ├── Demo_NLI_SolutionA.ipynb        # [Task A] Inference on test set using best traditional model
+│   └── Demo_NLI_SolutionC.ipynb        # [Task C] Dev/test inference and prediction saving
+│
+├── Training Notebook/
+│   ├── train_model_NLI_SolutionA.ipynb # [Task A] Traditional ML model training and evaluation
+│   └── train_model_NLI_SolutionC.ipynb # [Task C] RoBERTa model training on NLI dataset
+│
+├── Predictions/
+│   ├── Group_16_A.csv                  # [Task A] Predictions from traditional model
+│   └── Group_16_C.csv                  # [Task C] Predictions from fine-tuned RoBERTa model
+│
+├── ModelCard/
+│   ├── NLI_A_tf-idf_modelcard.md       # Model card for Task A
+│   └── NLI_C_roberta_modelcard.md      # Model card for Task C
+│
+├── data/
+│   ├── train.csv                        # Training data
+│   ├── dev.csv                          # Validation data
+│   ├── test.csv                         # Test data (without labels)
+│   └── NLI_trial.csv                    # Trial data (for quick inspection)
+│
+├── model/
+│   ├── SolutionA/                       # [Task A] Saved .pkl model and vectorizer, The model file is too large to be placed on Github
+│   └── SolutionC/                       # [Task C] Saved RoBERTa fine-tuned model and tokenizer, The model file is too large to be placed on Github
+│
+└── README.md                           # This file
 ```
 
 ---
