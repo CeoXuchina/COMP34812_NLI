@@ -110,7 +110,6 @@ Includes:
 🔗 Model download link:  
 https://drive.google.com/drive/folders/1TsKEnRT6xm9tpWEgXDUL0cHsZk9hOkdo?usp=sharing
 
-```
 
 ### Task C
 The trained RoBERTa model is saved to:
