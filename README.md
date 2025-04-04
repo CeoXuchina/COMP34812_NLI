@@ -46,14 +46,14 @@ This README describes how to run the code for our **Natural Language Understandi
 
 ###  Task A: Traditional Model (TF-IDF + Random Forest)
 
-1. Open `train_model_a.ipynb`  
+1. Open `train_model_NLI_SolutionA.ipynb`  
    - Loads training/dev data  
    - Performs hyperparameter grid search  
    - Trains and evaluates Logistic Regression, Naive Bayes, Random Forest, etc.  
    - Selects best model by F1 score
 
 2. For test inference:
-   - Run `demo_code_a.ipynb`  
+   - Run `Demo_NLI_SolutionA.ipynb`  
    - Loads saved `.pkl` model and vectorizer  
    - Generates predictions to `Group_16_A.csv`
 
@@ -61,13 +61,13 @@ This README describes how to run the code for our **Natural Language Understandi
 
 ###  Task C: RoBERTa Transformer Fine-Tuning
 
-1. Open `train_model.ipynb`  
+1. Open `train_model_NLI_SolutionC.ipynb`  
    - Loads and tokenizes the data with RoBERTa tokenizer  
    - Fine-tunes `roberta-base` over 8 epochs  
    - Best model saved to `roberta_nli_model/` based on dev F1 score
 
 2. For prediction and evaluation:
-   - Run `predict_and_eval.ipynb`  
+   - Run `Demo_NLI_SolutionC.ipynb`  
    - Generates:
      - `predictions.csv.predict.zip` (dev) — for Codabench
      - `Group_16_C.csv` (test) — for Blackboard submission
