@@ -99,6 +99,19 @@ rf_best = joblib.load('rf_best_model.pkl')
 vectorizer = joblib.load('vectorizer_rf_best.pkl')
 ```
 
+The trained TF-IDF + Random Forest model and vectorizer are saved to:
+
+`model/SolutionA/`
+
+Includes:
+- `rf_best_model.pkl`
+- `vectorizer_rf_best.pkl`
+
+🔗 Model download link:  
+https://drive.google.com/drive/folders/1TsKEnRT6xm9tpWEgXDUL0cHsZk9hOkdo?usp=sharing
+
+```
+
 ### Task C
 The trained RoBERTa model is saved to:
 
