@@ -114,7 +114,7 @@ https://drive.google.com/drive/folders/1TsKEnRT6xm9tpWEgXDUL0cHsZk9hOkdo?usp=sha
 ### Task C
 The trained RoBERTa model is saved to:
 
- `roberta_nli_model/`  
+ `model/SolutionC/`  
 Includes:
 - `model.safetensors`
 - `config.json`
